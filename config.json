@@ -1,0 +1,27 @@
+{
+  "common": {
+    "opts": {
+      "key": "cuk:sess",
+      "maxAge": "24h",
+      "overwrite": true,
+      "httpOnly": true,
+      "signed": true,
+      "rolling": false,
+      "renew": false
+    },
+    "useModel": true,
+    "flash": {
+      "key": "flash"
+    }
+  },
+  "cuks": {
+    "model": {
+      "connector": {
+        "default": {
+          "dab": "@rappopo/dab-memory",
+          "opts": {}
+        }
+      }
+    }
+  }
+}
