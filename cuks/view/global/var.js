@@ -3,6 +3,6 @@
 module.exports = function(cuk) {
 
   return ctx => {
-    return ctx.flash.get()
+    return ctx.session
   }
 }
