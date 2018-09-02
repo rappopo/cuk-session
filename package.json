@@ -1,6 +1,6 @@
 {
   "name": "@rappopo/cuk-session",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rappopo CUK Session Management",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Ardhi Lukianto <ardhi@lukianto.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rappopo/cuk-session.git"
+  },
   "dependencies": {
     "koa-session": "^5.8.2"
   }
