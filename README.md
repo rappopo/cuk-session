@@ -15,6 +15,7 @@ $ npm install --save @rappopo/cuk-session
 
 ## Links
 
+* [Wiki](https://github.com/rappopo/cuk-util/wiki)
 * [Documentation](https://docs.rappopo.com/cuk/)
 * [Changelog](CHANGELOG.md)
 
