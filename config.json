@@ -1,7 +1,7 @@
 {
   "common": {
     "opts": {
-      "key": "cuk:sess",
+      "key": "cuk:session",
       "maxAge": "24h",
       "overwrite": true,
       "httpOnly": true,
@@ -9,7 +9,7 @@
       "rolling": false,
       "renew": false
     },
-    "useModel": true,
+    "useModel": false,
     "flash": {
       "key": "flash"
     }
