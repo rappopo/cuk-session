@@ -1,27 +1,15 @@
 {
-  "common": {
-    "opts": {
-      "key": "cuk:session",
-      "maxAge": "24h",
-      "overwrite": true,
-      "httpOnly": true,
-      "signed": true,
-      "rolling": false,
-      "renew": false
-    },
-    "useModel": false,
-    "flash": {
-      "key": "flash"
-    }
+  "opts": {
+    "key": "cuk:session",
+    "maxAge": "24h",
+    "overwrite": true,
+    "httpOnly": true,
+    "signed": true,
+    "rolling": false,
+    "renew": false
   },
-  "cuks": {
-    "model": {
-      "connector": {
-        "default": {
-          "dab": "@rappopo/dab-memory",
-          "opts": {}
-        }
-      }
-    }
+  "useModel": false,
+  "flash": {
+    "key": "flash"
   }
 }

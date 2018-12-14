@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.0.5
+
+- Breaking change: config root no longer use common & cuks.
+
 ### 0.0.4
 
 - Standard JS
